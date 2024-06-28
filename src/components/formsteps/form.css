@@ -1,0 +1,493 @@
+.nav {
+    border: 1px solid #FFFFFF;
+    padding: 16px 120px 16px 120px;
+    background-color: #FFFFFF;
+    ;
+}
+.nav_icons_btn{
+    display: flex;
+}
+
+.progress-container {
+    text-align: center;
+    margin-bottom: 30px;
+    border: none !important;
+}
+
+#progressbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: lightgrey;
+    color: #019F44;
+
+}
+
+#progressbar li {
+    flex: 1;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+#progressbar li.active {
+    color: #019F44;
+    height: 10px;
+
+}
+
+.progress {
+    height: 5px;
+    background-color: #E5E7EB;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #019F44;
+    width: 0;
+    height: 100%;
+    transition: width 0.4s ease-in-out;
+}
+
+.step-container fieldset {
+    background: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative;
+    display: none;
+}
+
+.step-container fieldset:first-of-type {
+    display: block;
+}
+
+.next-step,
+.previous-step {
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 0px;
+    float: right; 
+}
+
+.next-step {
+    background: #019F44;
+}
+
+.previous-step {
+    background: #616161;
+}
+
+.next-step:hover,
+.next-step:focus {
+    background-color: #019F44;
+}
+
+.previous-step:hover,
+.previous-step:focus {
+    background-color: #4d4d4d;
+}
+
+.text {
+    color: #019F44;
+    font-weight: normal;
+}
+
+.finish {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: center;
+
+}
+
+.form_steps_1 {
+    width: 480px;
+    padding: 0px 10px 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.form_steps_1 h2 {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.form_steps_1 p {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: center;
+
+}
+
+#form_input_bar {
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    border: 1px solid #E5E7EB;
+    /* Default border color */
+    text-align: center;
+    /* Disable pointer events */
+    transition: border-color 0.3s ease;
+    /* Add transition for smooth effect */
+    color: #6B7280;
+    
+}
+
+#form_input_bar:focus {
+    outline: none;
+    border-color: #E5E7EB;
+    background-color: #019F44;
+    color: white;
+}
+
+
+.steps_form_2 {
+    padding: 0px 10px 20px;
+    width: 520px;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.steps_form_2 h2 {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: center;
+
+}
+
+.steps_form_2 p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: #6B7280;
+
+
+}
+
+.steps_nd_form input {
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    border: 1px solid #E5E7EB;
+    /* Default border color */
+    transition: border-color 0.3s ease;
+    /* Add transition for smooth effect */
+
+}
+
+.steps_form_2 label {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.4px;
+    color: #051011;
+}
+
+.steps_nd_form input:focus {
+    outline: none;
+    /* Remove default focus outline */
+    border-color: #E5E7EB;
+    /* Change border color on focus */
+}
+
+.form-inputs {
+    display: flex;
+    width: 100%;
+}
+
+.input-group-custom {
+    flex: 1;
+    box-sizing: border-box;
+    margin: 5px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: #6B7280;
+
+
+}
+
+.input-group-custom label {
+    display: block;
+}
+
+.input-group-custom input {
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    border: 1px solid #E5E7EB;
+    /* Default border color */
+    /* transition: border-color 0.3s ease; */
+    /* Add transition for smooth effect */
+}
+
+#textarea {
+    border: 2px solid red;
+    width: 100%;
+    height: 90px;
+    border-radius: 0;
+    border: 1px solid #E5E7EB;
+    /* Default border color */
+    transition: border-color 0.3s ease;
+    /* Add transition for smooth effect */
+}
+
+#textarea:focus {
+    outline: none;
+    /* Remove default focus outline */
+    border-color: #E5E7EB;
+    /* Change border color on focus */
+}
+
+.request_btn {
+    border: 2px solid #019F44;
+    width: 160px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    display: block;
+    background-color: #019F44;
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.Inbox_promise {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#information {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #6B7280;
+    margin-left: 3px;
+}
+
+#Lock {
+    font-family: Font Awesome 6 Pro;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: center;
+}
+
+.finish {
+    width:
+        520px;
+    height: 340px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+    margin-top: 100px;
+
+}
+
+/* .prposal{
+    border: 2px solid red;
+} */
+.box_step {
+    border: 2px solid rgb(236, 230, 230);
+    height: 50px;
+    width: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+#sucessful {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #6B7280;
+}
+
+#Return_Home {
+    margin-top: 20px;
+    width: 160px;
+    height: 48px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    background-color: #019F44;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+
+    .nav {
+        height: 100%;
+    }
+    .next-step,
+.previous-step {
+    height: 100%;
+}
+}
+
+@media (max-width: 992px) {
+
+    .nav {
+        height: 100%;
+        width: 100%;
+    }
+    .next-step,
+.previous-step {
+    height: 100%;
+}
+}
+
+
+@media (max-width: 767px) {
+.form_steps_1 h2 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.form_steps_1 p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: center;
+}
+#form_input_bar {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border: 1px solid #E5E7EB;
+    text-align: center;
+    transition: border-color 0.3s ease;
+    color: #6B7280;
+}
+.form_steps_1 {
+    width: 100%; 
+    padding: 0px 10px 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+}
+.nav {
+    border: 1px solid #FFFFFF;
+    padding: 0px 0px 0px 0px;
+    background-color: #FFFFFF;
+}
+.steps_form_2 {
+    padding: 0px 10px 20px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.steps_form_2 h2 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: center;
+}
+.steps_form_2 p {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: #6B7280;
+}
+.steps_nd_form input {
+    width: 100%;
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #E5E7EB;
+    transition: border-color 0.3s ease;
+}
+#textarea {
+    border: 2px solid red;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border: 1px solid #E5E7EB;
+    transition: border-color 0.3s ease;
+}
+#information {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #6B7280;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.finish {
+    width:
+        100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+    margin-top: 0px;
+
+}
+.box_step {
+    border: 2px solid rgb(236, 230, 230);
+    height: 100%; 
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.text {
+    color: #019F44;
+    font-weight: normal;
+    font-size: 18px;
+}
+}
