@@ -4,7 +4,8 @@
     background-color: #FFFFFF;
     ;
 }
-.nav_icons_btn{
+
+.nav_icons_btn {
     display: flex;
 }
 
@@ -75,7 +76,7 @@
     cursor: pointer;
     padding: 10px 5px;
     margin: 10px 5px 10px 0px;
-    float: right; 
+    float: right;
 }
 
 .next-step {
@@ -143,13 +144,10 @@
     height: 50px;
     border-radius: 0;
     border: 1px solid #E5E7EB;
-    /* Default border color */
     text-align: center;
-    /* Disable pointer events */
     transition: border-color 0.3s ease;
-    /* Add transition for smooth effect */
     color: #6B7280;
-    
+
 }
 
 #form_input_bar:focus {
@@ -194,9 +192,7 @@
     height: 50px;
     border-radius: 0;
     border: 1px solid #E5E7EB;
-    /* Default border color */
     transition: border-color 0.3s ease;
-    /* Add transition for smooth effect */
 
 }
 
@@ -210,25 +206,22 @@
 
 .steps_nd_form input:focus {
     outline: none;
-    /* Remove default focus outline */
     border-color: #E5E7EB;
-    /* Change border color on focus */
 }
 
 .form-inputs {
     display: flex;
+    gap: 10px;
     width: 100%;
+    padding-top: 20px;
 }
 
 .input-group-custom {
     flex: 1;
     box-sizing: border-box;
-    margin: 5px;
     font-weight: 400;
     font-family: "Lato", sans-serif;
     color: #6B7280;
-
-
 }
 
 .input-group-custom label {
@@ -240,9 +233,6 @@
     height: 50px;
     border-radius: 0;
     border: 1px solid #E5E7EB;
-    /* Default border color */
-    /* transition: border-color 0.3s ease; */
-    /* Add transition for smooth effect */
 }
 
 #textarea {
@@ -251,16 +241,20 @@
     height: 90px;
     border-radius: 0;
     border: 1px solid #E5E7EB;
-    /* Default border color */
     transition: border-color 0.3s ease;
-    /* Add transition for smooth effect */
+
 }
 
 #textarea:focus {
     outline: none;
-    /* Remove default focus outline */
     border-color: #E5E7EB;
-    /* Change border color on focus */
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+
 }
 
 .request_btn {
@@ -319,9 +313,7 @@
 
 }
 
-/* .prposal{
-    border: 2px solid red;
-} */
+
 .box_step {
     border: 2px solid rgb(236, 230, 230);
     height: 50px;
@@ -360,10 +352,11 @@
     .nav {
         height: 100%;
     }
+
     .next-step,
-.previous-step {
-    height: 100%;
-}
+    .previous-step {
+        height: 100%;
+    }
 }
 
 @media (max-width: 992px) {
@@ -372,122 +365,136 @@
         height: 100%;
         width: 100%;
     }
+
     .next-step,
-.previous-step {
-    height: 100%;
-}
+    .previous-step {
+        height: 100%;
+    }
 }
 
 
 @media (max-width: 767px) {
-.form_steps_1 h2 {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-}
-.form_steps_1 p {
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 39px;
-    text-align: center;
-}
-#form_input_bar {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-    border: 1px solid #E5E7EB;
-    text-align: center;
-    transition: border-color 0.3s ease;
-    color: #6B7280;
-}
-.form_steps_1 {
-    width: 100%; 
-    padding: 0px 10px 20px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    border-radius: 10px;
-}
-.nav {
-    border: 1px solid #FFFFFF;
-    padding: 0px 0px 0px 0px;
-    background-color: #FFFFFF;
-}
-.steps_form_2 {
-    padding: 0px 10px 20px;
-    width: 100%;
-    height: 100%;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.steps_form_2 h2 {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 39px;
-    text-align: center;
-}
-.steps_form_2 p {
-    font-size: 13px;
-    font-weight: 400;
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    color: #6B7280;
-}
-.steps_nd_form input {
-    width: 100%;
-    height: 40px;
-    border-radius: 0;
-    border: 1px solid #E5E7EB;
-    transition: border-color 0.3s ease;
-}
-#textarea {
-    border: 2px solid red;
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-    border: 1px solid #E5E7EB;
-    transition: border-color 0.3s ease;
-}
-#information {
-    font-family: Lato;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: center;
-    color: #6B7280;
-    margin-left: 3px;
-    margin-top: 10px;
-}
-.finish {
-    width:
-        100%;
-    height: 100%;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 30px;
-    margin-top: 0px;
+    .form_steps_1 h2 {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
 
-}
-.box_step {
-    border: 2px solid rgb(236, 230, 230);
-    height: 100%; 
-    width: 100%;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.text {
-    color: #019F44;
-    font-weight: normal;
-    font-size: 18px;
-}
+    .form_steps_1 p {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 39px;
+        text-align: center;
+    }
+
+    #form_input_bar {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        border: 1px solid #E5E7EB;
+        text-align: center;
+        transition: border-color 0.3s ease;
+        color: #6B7280;
+    }
+
+    .form_steps_1 {
+        width: 100%;
+        padding: 0px 10px 20px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .nav {
+        border: 1px solid #FFFFFF;
+        padding: 0px 0px 0px 0px;
+        background-color: #FFFFFF;
+    }
+
+    .steps_form_2 {
+        padding: 0px 10px 20px;
+        width: 100%;
+        height: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .steps_form_2 h2 {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 39px;
+        text-align: center;
+    }
+
+    .steps_form_2 p {
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+        color: #6B7280;
+    }
+
+    .steps_nd_form input {
+        width: 100%;
+        height: 40px;
+        border-radius: 0;
+        border: 1px solid #E5E7EB;
+        transition: border-color 0.3s ease;
+    }
+
+    #textarea {
+        border: 2px solid red;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        border: 1px solid #E5E7EB;
+        transition: border-color 0.3s ease;
+    }
+
+    #information {
+        font-family: Lato;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        color: #6B7280;
+        margin-left: 3px;
+        margin-top: 10px;
+    }
+
+    .finish {
+        width:
+            100%;
+        height: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 30px;
+        margin-top: 0px;
+
+    }
+
+    .box_step {
+        border: 2px solid rgb(236, 230, 230);
+        height: 100%;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .text {
+        color: #019F44;
+        font-weight: normal;
+        font-size: 18px;
+    }
 }
